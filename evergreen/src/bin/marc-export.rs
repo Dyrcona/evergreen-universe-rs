@@ -17,9 +17,7 @@ const HOLDINGS_SUBFIELD: &str = "852";
 /// Map MARC subfields to SQL row field names.
 /// Some are handled manually but left here for documentation.
 const ITEM_SUBFIELD_MAP: &[&(&str, &str)] = &[
-    &("b", "owning_lib"),
     &("b", "circ_lib"),
-    &("b", "acpl_name"),
     &("k", "call_number_prefix"),
     &("j", "call_number"),
     &("m", "call_number_suffix"),
