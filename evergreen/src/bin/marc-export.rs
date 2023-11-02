@@ -18,6 +18,7 @@ const HOLDINGS_SUBFIELD: &str = "852";
 /// Some are handled manually but left here for documentation.
 const ITEM_SUBFIELD_MAP: &[&(&str, &str)] = &[
     &("b", "circ_lib"),
+    &("c", "acpl_name"),
     &("k", "call_number_prefix"),
     &("j", "call_number"),
     &("m", "call_number_suffix"),
